@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <head>
-<body>
-    <style>
-  body, html {
+		<head>
+			<head>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <style>
+                body, html {
                   height: 100%;
                   margin: 0;
-                  font-family: open-sans, Arial, Helvetica, sans-serif;
+                  font-family: Arial, Helvetica, sans-serif;
                 }
                 
                 .hero-image {
-                  background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("VerlaufLila.jpg");
+                  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://image.freepik.com/free-photo/coffee-beans-background_23-2147776806.jpg");
                   height: 50%;
                   background-position: center;
                   background-repeat: no-repeat;
@@ -20,7 +21,7 @@
                 }
                 .hero-image:hover {
   transform: scale(1.1);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("VerlaufLila.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://image.freepik.com/free-photo/coffee-beans-background_23-2147776806.jpg");
 }
                 .hero-text {
                   text-align: center;
@@ -29,340 +30,440 @@
                   left: 50%;
                   transform: translate(-50%, -50%);
                   color: white;
-                }
-    .hero-text button:hover {
-  background-color: #555;
+				}
+				#mySideNav{
+	width: 0;
+	height: 100vh;
+	z-index: 100;
+	background-color: black;
+	opacity: 0.8;
+	display: block;
+	position: fixed;
+	text-align: center;
+	transition: width 1s; 
+	overflow-x: hidden;
+
+	}
+
+	#mySideNav.openMenu{
+		width:50vw; 
+	}
+
+	#closeIcon{
+    position: absolute;
+    right: 15px;
+    font-size: 50px;
+	margin-left: 30px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-family: Arial;
+
+	}
+                
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
   color: white;
+  background-color: rgb(187, 153, 90); 
+  text-align: center;
+  cursor: pointer;
+  border-radius: 16px;
 }
+
+.hero-text button:hover {
+  background-color:white;
+  color: rgb(187, 153, 90);
+}
+.down {
+					transform: rotate(45deg);
+					-webkit-transform: rotate(45deg);
+				  }
+            
+
                 </style>
                 </head>
                 <body>
                 <div class="hero-image">
                   <div class="hero-text">
-                    <h1 style="font-size:50px">Patricia Parnet</h1>
-                    <p>Major Studio One: Final project</p>
-                  </div>
-                </div>
-            
+					<h1 style="font-size:50px">Mission in a cup</h1>
+					<br>
+                    <button>Start</button>
+				  </div>
+				  <div id="mySideNav" class="sideNav">
+					<span id="closeIcon">&times;</span>
+				</div>
+				<p>Down arrow: <i class="down"></i></p>
+
+
+				</div>
+			
                 
                 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  </style>
-  <style>
-  @import url("https://use.typekit.net/kpe0aaz.css");
-  font-family: open-sans,sans-serif;
-font-weight: 400;
-font-style: normal;
-</style>
-  <br>
-  <font face="open-sans" style="color:grey;background-color:white;" size="4">Major Studio One: Final Project</font><br />
-  <br>
-   <font face="open-sans" style="color:grey;background-color:white;"size="2">Paving the path for a sustainable life without plastic in The New School Cafeteria (University Center)</font><br />
-  <br>
-  <font face="open-sans" style="color:grey;background-color:white;"size="4">LOCATION</font><br />
-  <br>
-  <font face="open-sans" style="color:grey;background-color:white;" size="2">The New School offers a variety of dining options in the cafeteria, located in the Universty Center.</font><br />
-  <font face="open-sans" style="color:grey;background-color:white;" size="2">They sell fresh food for take-away and to stay as well as processed items and drinks. Coffee and fountain drinks are also available.</font><br />
-  <font face="open-sans" style="color:grey;background-color:white;" size="2">Many students use the service, also because of the meal plans they purchased. Most of them decide to stay in the cafeteria, some go elsewhere in the building or leave the building and having their lunch on the terrace, for example.</font>
-   <font face="open-sans" style="color:grey;background-color:white;" size="2">A high percentage of students tend to only use plastic items and it seems like they don't even consider alternative options like plates. There is china and silverware available, but only very few students use it and it is also hidden in places, where most students can't see them.</font><br />
-  <br>
-   <font face="open-sans" style="color:grey;background-color:white;" size="2">There is no promotion for non-plastic tableware, nor is there a special sign where to find real china.</font>
-   <font face="open-sans" style="color:grey;background-color:white;" size="2">Comng from Europe, I realized that Americans in general use more plastic items than in Europe, which means they produce more waste and consume more critical chemicals through plastic. Not only because people here seem to have no time and like to eat on the go, but also because many chains or places don't even offer eco-friendly alternatves like ceramic plates, silverware or glasses. Whilst it would be very hard to find plastic forks, straws or even plastic bags somewhere in Europe due to strict laws and general awareness of the people, most places in the US take it for granted to offer plastic or consider it as an extra service.</font><br />
-  <br>
-  <img src="IMG_0889.JPG" alt="Student eating food" height="300" width="400"> <img src="IMG_5026.JPG" alt="Students produce waste" height="300" width="400">
-  <br>
-    <br>
-  <img src="IMG_0230.JPG" alt="Apples in plastic" height="300" width="400"> <img src="IMG_9058.JPG" alt="Non-plastic tableware is hidden" height="300" width="400">
-  <br>
-  <br>
-   <font face="Verdana" style="color:grey;background-color:white;"size="4">OBSERVATION</font><br />
-  <br>
-  <font face="Verdana" style="color:grey;background-color:white;" size="2">With the cafeteria as my point of observation, I began to hghlight the paths students were taking after purchasing food. I was interested whether they would leave the building or stay in the cafeteria. Because those who stay would not even need packaging for take-away, they could have their lunch with regular tableware instead.</font><br />
-  <font face="Verdana" style="color:grey;background-color:white;" size="2">First, I started to count the number of people staying or leaving the cafeteria with food after the main serving hour. This is the result:</font><br />
-  <br>
-    <font face="Verdana" style="color:grey;background-color:white;" size="2">Within 20 minutes 51 students decided to stay in the cafeteria, 35 left the dining area after paying for their food. Drinks were the items the cafeteria sold the most, epecially hot and cold drinks from the self-service station. Six plastic bags were given by employees to carry food, all of th eplastic bags were taken out of the cafeteria. Furthermore, there war not a single person with china or silverware during this time.</font><br />
-  <br>
-  <img src="Map_Canteen.png" alt="Behaviour" height="500" width="700">
-   <br>
-  <br>
-  <br>
-</style>
 </head>
 <body>
-</div>
-
-</body>
-    
-</body>
 <style>
-  @import url("https://use.typekit.net/kpe0aaz.css");
-  font-family: open-sans,sans-serif;
-font-weight: 400;
-font-style: normal;
-</style>
-<font face="open-sans" style="color:grey;background-color:white;"size="7">PATRICIA PARNET</font><br />
-<br>
-  <font face="open-sans" style="color:grey;background-color:white;" size="4">Design & Technology: Major Studio One</font><br />
-  <br>
-   <font face="open-sans" style="color:grey;background-color:white;"size="2">Instruction sets for strangers with my project partner JOE CHUNG // CHERRY HILLS x CENTRAL PARK</font><br />
-  <br>
-  <font face="open-sans" style="color:grey;background-color:white;"size="4">PLACE</font><br />
-  <font face="open-sans" style="color:grey;background-color:white;" size="2">Cherry Hills is part of New York's famous Central Park and is located on the Upper Western part of the park.</font><br />
-  <font face="open-sans" style="color:grey;background-color:white;" size="2">The place is known for its romantic water fountain and for the great photo spots towards the castle.</font><br />
-  <font face="open-sans" style="color:grey;background-color:white;" size="2">It had always been a historic location for horse carriages too, because the fountain offers an accessible source of water for horses.</font><br />
-  <br>
-  <img src="unnamed-7.jpg" alt="Horses in Central Park" height="300" width="400"> <img src="Fountain.jpg" alt="Fountain in Central Park" height="300" width="150">
-  <br>
-  <br>
-   <font face="Verdana" style="color:grey;background-color:white;"size="4">MAPPING</font><br />
-  <font face="Verdana" style="color:grey;background-color:white;" size="2">As Cherry Hills is a circle, we were interested in the behaviour of visitors, horses, birds and dogs around.</font><br />
-  <font face="Verdana" style="color:grey;background-color:white;" size="2">Our target groups are tourists and native New Yorkers.</font><br />
-  <br>
-  <img src="MAP.jpg" alt="Behaviour" height="500" width="700">
-   <br>
-  <br>
-  <br>
-   <font face="Verdana" style="color:grey;background-color:white;"size="4">INSTALLATION x PROTOTYPE I</font><br />
-  <font face="Verdana" style="color:grey;background-color:white;" size="2">Ideation is still an ongoing process, but the power of observation and creative methods helped us to come up with a couple of outstanding ideas with the environment in the center of the installation.</font><br />
-  <br>
-  <img src="Brainstorming.png" alt="Behaviour" height="400" width="700">
-  <br>
-  <br>
-    <img src="AEIOU.png" alt="Behaviour" height="400" width="700">
-  <br>
-  <br>
-    <font face="Verdana" style="color:grey;background-color:white;" size="2">The map gives us a good overview about perfect places for our installation.</font><br />
-  <br>
-  <br>
-   <font face="Verdana" style="color:grey;background-color:white;"size="4">TESTING x PROTOTYPES</font><br />
-  <font face="Verdana" style="color:grey;background-color:white;" size="2">Ideation is still an ongoing process, but the power of observation and creative methods helped us to come up with a couple of ideas.</font><br />
-  <br>
-    <font face="Verdana" style="color:grey;background-color:white;" size="2"> Our mission is to show the endless cycle of things, especially trash. We also want people to not only benefit from our concept, but also create somethings themselves. These are our four principles:</font><br />
-    <br>
-  <img src="Principles.png" alt="Prototype 1" height="200" width="600"> 
-    <br>
-    <font face="Verdana" style="color:grey;background-color:white;" size="2">The prototype I is made out of cardboard and trash. It looks playful and colorful.</font><br />
-  <font face="Verdana" style="color:grey;background-color:white;" size="2">People started to observe, touch and explore the box. But it seems like the design needs to improve in order to complete the desired interaction.</font><br />
-  <br>
-    <font face="Verdana" style="color:grey;background-color:white;" size="2">Therefore, we decided to implement a mechanism in the second prototype.</font><br />
-    <font face="Verdana" style="color:grey;background-color:white;" size="2">The prototype I is made out of cardboard and trash. It looks playful and colorful.</font><br />
-  <br>
-  <font face="Verdana" style="color:grey;background-color:white;" size="2">People started to observe, touch and explore the box. But it seems like the design needs to improve visually in order to complete the desired interaction.</font><br />
-  <font face="Verdana" style="color:grey;background-color:white;" size="2">The prototype itself conbines the following attributes: We are all connected and We get what we put in (endless cycle)</font><br />
-<font face="Verdana" style="color:grey;background-color:white;" size="2">We added a playful mechanism in order to increase the interaction and tested it in two locations later. The basic ides here was to not only insert someting, but writing a creative message and create something personal. Everything is still build out of trash and we included elemenents for additianl material, like a holder for pens or paper. </font><br />
-    <font face="Verdana" style="color:grey;background-color:white;" size="2">The prototype is made out of cardboard and trash. It looks playful and colorful, inviting people to collaborate: We can create what we put in and leave a message to a stranger.</font><br />
-  <br>
-  <img src="IMG_20190908_145352.jpg" alt="Behaviour" height="400" width="300">
-  <img src="Triangle.png" alt="Behaviour" height="400" width="700">
-  <br>
-  <img src="Bildschirmfoto 2019-09-11 um 11.13.28.png" alt="Behaviour" height="400" width="700">
-  <br>
-  <img src="Bildschirmfoto 2019-09-11 um 11.13.51.png" alt="Behaviour" height="400" width="700">
-    <br>
-  <img src="Bildschirmfoto 2019-09-11 um 11.14.20.png" alt="Behaviour" height="400" width="700">  
-  <br>
-  <br>
-  <img src="Bildschirmfoto 2019-09-11 um 11.14.42.png" alt="Behaviour" height="400" width="700">
-  <font face="Verdana" style="color:white;background-color:black;" size="2"></font><br />
-  <br>
-<br>
-  <font face="Verdana" style="color:grey;background-color:white;" size="2">It seems like the second locations attracts more attention and people have more time to sit down and reflect. First, they started pulling out and reading messages, then they started writing their own.</font><br />
-  <font face="Verdana" style="color:grey;background-color:white;" size="2">Our task is to guide the interaction in our desired direction: awareness for the environment and trash. Firthermore, we aim to create a general understanding of how to live in a society that works together on environmental goals.</font><br />
-  <br>
-  <br>
-  <br>
-  <img src="Bildschirmfoto 2019-09-11 um 11.14.42.png" alt="Behaviour" height="400" width="700">
-  <font face="Verdana" style="color:grey;background-color:white;" size="2"></font><br />
-  <br>
-<br>
-  <font face="Verdana" style="color:grey;background-color:white;" size="2">A prototype is an artefact that is continouisl< changing based on user feedback. Therefore, we finalized it in order to gain more confidence to increase the interaction rate through design.</font><br />
-  <font face="Verdana" style="color:grey;background-color:white;" size="2">The box was designed from foam board looks like a cube. The intension was to build an object that looks like a post box, which would lead to more interaction due to a familiar look (post box).<br />
-    People started to notice the box and started converdations, with descriptions such as "cute" or questions like "What's that?".<br>
-    We then interviewed a group of ladies that were very interested in our project. Their suggestions are: make it look like art! Furthermore, they think it doesn't make a difference if there is trash on the box or not.<br>
-    But because trash is our main focus, we wanted to go one step further and tested trash as a character. Please find the evolution of prototypes below: </font>
-  <br>
-    <br>
-  <img src="Prototyp1Turkis.png" alt="Prototype 1" height="400" width="700"> 
-    <br>
-    <img src="prototyp2turkis.png" alt="Prototype 2" height="400" width="700">
-     <br>
-    <br>
-    <img src="Box2.jpg" alt="Prototype 2" height="400" width="500"><img src="FinalPrototype.jpg" alt="Prototype 2" height="400" width="300">
-  <br>
-</style>
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-group button {
+  background-color: rgb(187, 153, 90); 
+  border: 1px solid rgb(251, 252, 251); 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left; 
+  border-radius: 16px;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+
+.btn-group button:hover {
+  background-color: #1da3bb;
+}
+.btn-group button:active{
+    background-color: #a1190f;
+}
+.btn-group button:focus{
+    background-color: #a1190f;
+}
+.btn-group button:visited{
+    background: #a1190f;
+}
+
+
 </head>
-<body>
-  
-  <head>
+</style>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
+.accordion {
+  background-color: #eee;
+  color: #444;
   cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+  padding: 18px;
   width: 100%;
-  text-align: center;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+.active, .accordion:hover {
+  background-color: #ccc; 
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
 }
 </style>
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+
+	<script type="text/javascript" src="assets/js/main.js"></script>	
+	
+
 </head>
 <body>
+	
+	<div id="mySideNav" class="sideNav">
+		<span id="closeIcon">&times;</span>
+	</div>
 
-<div class="slideshow-container">
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="img_nature_wide.jpg" style="width:100%">
-  <div class="text">Caption Text</div>
-</div>
+	<div id="linkOne" class="linkOne page">
+		<div class="first-container">
+			<!-- <spam class="big-text t1">OUR TEAM</spam> -->	 	
+		</div>		
+	</div>
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="img_snow_wide.jpg" style="width:100%">
-  <div class="text">Caption Two</div>
-</div>
+	<div id="linkTwo" class="linkTwo page">
+		<div class="second-container">	
+			<!-- <spam class="big-text t2">SERVICES</spam>  -->	
+		</div>		
+	</div>
 
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="img_mountains_wide.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
-</div>
 
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	<div id="linkThree" class="linkThree page">
+		<div class="third-container">
+			<!-- <spam class="big-text t3">TESTIMONIALS</spam> -->	 	
+		</div>
+		<div id="linkFour" class="linkFour page">
+			<div class="fourth-container">
+				<!-- <spam class="big-text t3">TESTIMONIALS</spam> -->	 	
+			</div>			
+	</div>
 
-</div>
-<br>
 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
+	
+	
 </body>
-</div>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	body, html {
+	  height: 100%;
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	* {
+	  box-sizing: border-box;
+	}
+	
+	.bg-img {
+	  /* The image used */
+	  background-image: url("https://image.freepik.com/psd-gratis/mockup-di-tazze-da-caffe-in-diverse-dimensioni_23-2147758196.jpg");
+	
+	  min-height: 380px;
+	
+	  /* Center and scale the image nicely */
+	  background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  position: relative;
+	  
+	}
+	
+	/* Add styles to the form container */
+	.container {
+	  position: absolute;
+	  right: 0;
+	  margin: 20px;
+	  max-width: 300px;
+	  padding: 16px;
+	  background-color: white;
+	}
+	
+	/* Full-width input fields */
+	input[type=text], input[type=password] {
+	  width: 100%;
+	  padding: 15px;
+	  margin: 5px 0 22px 0;
+	  border: none;
+	  background: #f1f1f1;
+	}
+	
+	input[type=text]:focus, input[type=password]:focus {
+	  background-color: #ddd;
+	  outline: none;
+	}
+	
+	/* Set a style for the submit button */
+	.btn {
+		border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color: rgb(187, 153, 90); 
+  text-align: center;
+  cursor: pointer;
+  border-radius: 16px;
+	}
+	
+	.btn:hover {
+		border: rgb(187, 153, 90);
+  background-color:white;
+  color: rgb(187, 153, 90);
+}
+	}
+	</style>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		* {box-sizing: border-box}
+		body {font-family: Verdana, sans-serif; margin:0}
+		
+		/* Slideshow container */
+		.slideshow-container {
+		  position: relative;
+		  background: white;
+		}
+		
+		/* Slides */
+		.mySlides {
+		  display: none;
+		  padding: 80px;
+		  text-align: center;
+		}
+		
+		/* Next & previous buttons */
+		.prev, .next {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 50%;
+		  width: auto;
+		  margin-top: -30px;
+		  padding: 16px;
+		  color: white;
+		  font-weight: bold;
+		  font-size: 20px;
+		  border-radius: 0 3px 3px 0;
+		  user-select: none;
+		}
+		
+		/* The dot/bullet/indicator container */
+		.dot-container {
+			text-align: center;
+			padding: 20px;
+			background: white;
+		}
+		
+		/* The dots/bullets/indicators */
+		.dot {
+		  cursor: pointer;
+		  height: 15px;
+		  width: 15px;
+		  margin: 0 2px;
+		  background-color: rgb(201, 192, 192);
+		  border-radius: 50%;
+		  display: inline-block;
+		  transition: background-color 0.6s ease;
+		}
+		
+		/* Add a background color to the active dot/circle */
+		.active, .dot:hover {
+		  background-color: rgb(187, 153, 90);
+		}
+		
+		/* Add an italic font style to all quotes */
+		q {font-style: italic;}
+		
+		/* Add a blue color to the author */
+		.author {color: black;}
+		</style>
+		</head>
+		<body>
+		
+		<div class="slideshow-container">
+		
+		<div class="mySlides">
+		  <q>I love coffee, but I tend to forget my own tumbler. So I appreciate the reusable sharing system.</q>
+		  <p class="author">- Patricia</p>
+		</div>
+		
+		<div class="mySlides">
+		  <q>As a coffee lover, I would appreciate to drink coffee whilst helping the environment.</q>
+		  <p class="author">- Ernest Hemingway</p>
+		</div>
+		
+		<div class="mySlides">
+		  <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+		  <p class="author">- Thomas A. Edison</p>
+		</div>
+		
+		<a class="prev" onclick="plusSlides(-1)">❮</a>
+		<a class="next" onclick="plusSlides(1)">❯</a>
+		
+		</div>
+		
+		<div class="dot-container">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+		
+		<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+		
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+		
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+		
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			  dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+		</script>
+		
+		</body>
+	</head>
+	<body>
 
-</body>
-    
-</body>
+	<div class="bg-img">
+	  <form action="/action_page.php" class="container">
+	
+		<label for="email"><b>New School ID</b></label>
+		<input type="text" placeholder="Enter New School ID" name="email" required>
+	
+		<label for="psw"><b>EMail</b></label>
+		<input type="password" placeholder="Enter Email" name="psw" required>
+	
+		<button type="submit" class="btn">Start</button>
+	  </form>
+	</div>
+	</body>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=2">
+		<style>
+		.footer {
+		   position: fixed;
+		   left: 0;
+		   bottom: 0;
+		   width: 100%;
+		   background-color: #ECECEC;
+		   color: black;
+		   text-align: center;
+		}
+		.avatar {
+			  vertical-align: middle;
+			  width: 50px;
+			  height: 50px;
+			  border-radius: 50%;
+			}
+		</style>
+		</head>
+		<body>
+		<div class="footer">
+		  <br>
+			<img src="socialicons.png" height="30px" width="90px">
+		</div>
+		
+		</body>
 </html>
+
+
+
+<!-- Credist (Code sources)
+	- Menu Bar Code:
+		Copyright (c) 2017 by Adam Macias (http://codepen.io/adammacias/pen/WvxVRP) -->
